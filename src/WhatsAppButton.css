@@ -1,0 +1,140 @@
+/* ==================== WHATSAPP FLOATING BUTTON ==================== */
+.whatsapp-float-wrapper {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  animation: slideInRight 0.5s ease;
+}
+
+.whatsapp-float-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background: #25D366;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: visible;
+}
+
+.whatsapp-float-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 30px rgba(37, 211, 102, 0.5);
+  background: #20BA5A;
+}
+
+.whatsapp-float-btn:active {
+  transform: translateY(-1px);
+}
+
+.whatsapp-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: all var(--transition-base);
+}
+
+.whatsapp-float-btn:hover .whatsapp-icon-wrapper {
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(15deg);
+}
+
+.whatsapp-icon {
+  animation: wiggle 1s ease infinite;
+}
+
+.whatsapp-text {
+  font-family: var(--font-primary);
+  letter-spacing: 0.5px;
+}
+
+/* Ripple Effect */
+.whatsapp-ripple {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #25D366;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+  animation: ripple 2s infinite;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.whatsapp-ripple-delay {
+  animation-delay: 1s;
+}
+
+/* Animations */
+@keyframes ripple {
+  0% {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+  }
+  100% {
+    width: 150%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .whatsapp-float-wrapper {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp-float-btn {
+    padding: var(--spacing-xs) var(--spacing-md);
+    font-size: 0.875rem;
+  }
+
+  .whatsapp-icon-wrapper {
+    width: 36px;
+    height: 36px;
+  }
+
+  .whatsapp-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-float-wrapper {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .whatsapp-text {
+    font-size: 0.8125rem;
+  }
+}
