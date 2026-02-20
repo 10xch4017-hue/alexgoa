@@ -150,7 +150,7 @@ const B2CPage = () => {
   type="button"
   className="floating-btn"
   onClick={() => {
-    const phoneNumber = "16727024041";
+    const phoneNumber = "12267934922";
     const message = `Hello I need B2C ${panel.name} panel`;
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
