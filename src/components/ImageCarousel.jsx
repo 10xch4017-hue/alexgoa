@@ -7,23 +7,13 @@ const ImageCarousel = () => {
   const slides = [
     {
       id: 1,
-      image: '/images/WhatsApp Image 2026-02-08 at 2.20.34 PM.jpeg',
+      image: '/images/banner-1.png',
       alt: 'Fairplay Banner 1'
     },
     {
       id: 2,
-      image: '/images/WhatsApp Image 2026-02-08 at 4.24.42 PM.jpeg',
+      image: '/images/banner-2.png',
       alt: 'Fairplay Banner 2'
-    },
-    {
-      id: 3,
-      image: '/images/WhatsApp Image 2026-02-08 at 4.45.42 PM.jpeg',
-      alt: 'Fairplay Banner 3'
-    },
-    {
-      id: 4,
-      image: '/images/WhatsApp Image 2026-02-08 at 4.52.41 PM.jpeg',
-      alt: 'Fairplay Banner 4'
     },
   ];
 
