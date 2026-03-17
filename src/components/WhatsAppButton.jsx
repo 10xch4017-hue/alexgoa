@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 const WhatsAppButton = () => {
   const [isHovered, setIsHovered] = useState(false);
 
-  const phoneNumber = "7346383179"; // No +, no spaces
+  const phoneNumber = "447346383179"; // No +, no spaces
 
   const message = `Hello 👋
 
