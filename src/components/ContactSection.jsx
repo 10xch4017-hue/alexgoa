@@ -123,13 +123,13 @@ const ContactSection = () => {
                 justifyContent: 'center',
                 color: 'var(--primary)',
                 cursor: 'pointer'
-              }} onClick={() => window.open('https://wa.me/919784782981', '_blank')}>
+              }} onClick={() => window.open('https://wa.me/19027078654', '_blank')}>
                 <Phone size={24} />
               </div>
               <div>
                 <p style={{ fontWeight: '600', marginBottom: '0.25rem' }}>Phone / WhatsApp</p>
                 <p style={{ color: 'var(--text-muted)' }}>
-                  <a href="https://wa.me/919784782981" target="_blank" rel="noopener noreferrer">--</a>
+                  <a href="https://wa.me/19027078654" target="_blank" rel="noopener noreferrer">+1 902 707 8654</a>
                 </p>
               </div>
             </div>
