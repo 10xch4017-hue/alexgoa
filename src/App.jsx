@@ -18,6 +18,7 @@ import FAQ from "./components/FAQ";
 import BettingPanelProvider from "./pages/BettingPanelProvider";
 import RentalBettingIdPanel from "./pages/RentalBettingIdPanel";
 import MasterPanelProviderIndia from "./pages/MasterPanelProviderIndia";
+import ReddyAnnaPanelProvider from "./pages/ReddyAnnaPanelProvider";
 import ContactSection from "./components/ContactSection";
 
 // Styles
@@ -65,6 +66,10 @@ function App() {
             <Route
               path="/master-panel-provider-india"
               element={<MasterPanelProviderIndia />}
+            />
+            <Route
+              path="/reddy-anna-panel-provider"
+              element={<ReddyAnnaPanelProvider />}
             />
           </Routes>
         </main>
