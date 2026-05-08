@@ -16,6 +16,7 @@ import B2BPage from "./pages/B2BPage";
 import B2CPage from "./pages/B2CPage";
 import FAQ from "./components/FAQ";
 import BettingPanelProvider from "./pages/BettingPanelProvider";
+import RentalBettingIdPanel from "./pages/RentalBettingIdPanel";
 import ContactSection from "./components/ContactSection";
 
 // Styles
@@ -55,6 +56,10 @@ function App() {
             <Route
               path="/betting-panel-provider"
               element={<BettingPanelProvider />}
+            />
+            <Route
+              path="/rental-betting-id-panel"
+              element={<RentalBettingIdPanel />}
             />
           </Routes>
         </main>
