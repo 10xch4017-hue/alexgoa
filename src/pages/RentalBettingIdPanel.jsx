@@ -237,7 +237,7 @@ function RentalBettingIdPanel() {
           {" "}
           Businesses focusing on scalability, structured management, and
           operational stability are better positioned for sustainable growth in
-          competitive betting markets.{" "}
+          competitive betting market.{" "}
         </p>{" "}
       </div>{" "}
     </div>
