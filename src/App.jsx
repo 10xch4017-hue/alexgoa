@@ -9,7 +9,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import ScrollToTop from "./components/ScrollToTop";
-import BettingPanelProvider from "./pages/BettingPanelProvider";
 
 // Pages
 import HomePage from "./pages/HomePage";
