@@ -16,8 +16,8 @@ import HomePage from "./pages/HomePage";
 import B2BPage from "./pages/B2BPage";
 import B2CPage from "./pages/B2CPage";
 import FAQ from "./components/FAQ";
-import ContactSection from "./components/ContactSection";
 import BettingPanelProvider from "./pages/BettingPanelProvider";
+import ContactSection from "./components/ContactSection";
 
 // Styles
 import "./styles.css";
