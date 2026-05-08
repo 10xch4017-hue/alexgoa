@@ -1,25 +1,30 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import WhatsAppButton from './components/WhatsAppButton';
-import ScrollToTop from './components/ScrollToTop';
-
-
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
+import ScrollToTop from "./components/ScrollToTop";
+import BettingPanelProvider from "./pages/BettingPanelProvider";
 
 // Pages
-import HomePage from './pages/HomePage';
-import B2BPage from './pages/B2BPage';
-import B2CPage from './pages/B2CPage';
-import FAQ from './components/FAQ';
-import ContactSection from './components/ContactSection';
+import HomePage from "./pages/HomePage";
+import B2BPage from "./pages/B2BPage";
+import B2CPage from "./pages/B2CPage";
+import FAQ from "./components/FAQ";
+import ContactSection from "./components/ContactSection";
+import BettingPanelProvider from "./pages/BettingPanelProvider";
 
 // Styles
-import './styles.css';
-import './B2BPanelCards.css';
-import './B2CPage.css';
-import './WhatsAppButton.css';
-import './ScrollToTop.css';
+import "./styles.css";
+import "./B2BPanelCards.css";
+import "./B2CPage.css";
+import "./WhatsAppButton.css";
+import "./ScrollToTop.css";
 
 // Scroll to top when route changes
 function ScrollToTopOnMount() {
@@ -33,14 +38,14 @@ function ScrollToTopOnMount() {
 }
 
 function App() {
-  console.log('App rendering');
-  
+  console.log("App rendering");
+
   return (
     <Router>
       <ScrollToTopOnMount />
       <div className="app">
         <Header />
-        
+
         <main className="main-content">
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -48,12 +53,16 @@ function App() {
             <Route path="/b2c" element={<B2CPage />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<ContactSection />} />
+            <Route
+              path="/betting-panel-provider"
+              element={<BettingPanelProvider />}
+            />
           </Routes>
         </main>
         <Footer />
-        
+
         {/* Floating Buttons */}
-        <WhatsAppButton 
+        <WhatsAppButton
           phoneNumber="447777339208"
           message="Hi! I'm interested in your services."
         />
