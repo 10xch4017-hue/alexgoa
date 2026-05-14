@@ -130,7 +130,11 @@ const HomePage = () => {
                 high-traffic periods.
               </p>
 
-              <a href="#">
+              <a
+                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button
                   style={{
                     marginTop: "20px",
@@ -214,7 +218,11 @@ const HomePage = () => {
                 consistency.
               </p>
 
-              <a href="#">
+              <a
+                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button
                   style={{
                     marginTop: "20px",
@@ -295,7 +303,11 @@ const HomePage = () => {
                 flexibility for modern betting environments.
               </p>
 
-              <a href="#">
+              <a
+                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button
                   style={{
                     marginTop: "20px",
@@ -371,7 +383,11 @@ const HomePage = () => {
                 live betting activity and high user traffic periods.
               </p>
 
-              <a href="#">
+              <a
+                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button
                   style={{
                     marginTop: "20px",
@@ -416,7 +432,7 @@ const HomePage = () => {
                 lineHeight: "1.3",
               }}
             >
-              Betting Panel Provider & Master Panel Provider India
+              Built for Modern Online Betting Platforms
             </h2>
 
             <p
@@ -428,9 +444,9 @@ const HomePage = () => {
                 margin: "0 auto",
               }}
             >
-              Structured betting infrastructure, scalable backend systems,
-              real-time APIs, secure wallet management, and operational
-              solutions designed for modern online betting environments.
+              Simple, scalable, and real-time betting systems designed to
+              support smooth platform management, user activity, wallet
+              operations, and live betting infrastructure.
             </p>
           </div>
 
@@ -806,7 +822,11 @@ const HomePage = () => {
 
             {/* CTA */}
             <div style={{ textAlign: "center", marginTop: "60px" }}>
-              <a href="#">
+              <a
+                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button
                   style={{
                     background: "#0A336E",
