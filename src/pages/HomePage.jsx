@@ -80,7 +80,7 @@ const HomePage = () => {
           >
             <div style={{ flex: "1", minWidth: "300px" }}>
               <img
-                src="/images/betting-panel-provider.webp"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdMIKwYiAGe-L4LC_dHL-jUa-wS-ODSsdHqWGHwPVdjPnAjgZTz9mtM0vGYGaalmKdC52VZkt5qPIrU4x46vAyFJWVxZky_JHrMXnsFUqt06oiF_W36HONrBPD_Yf-AbBCiMCSY1fO7mGl-Ts1qXgrtfZSA8A_YpMf6Cgo_WZH8d03-KZfz41P5DfN6rI/s16000/bettingpanelprovider.png"
                 alt="Betting Panel Provider"
                 style={{
                   width: "100%",
@@ -171,7 +171,7 @@ const HomePage = () => {
           >
             <div style={{ flex: "1", minWidth: "300px" }}>
               <img
-                src="/images/master-panel-provider.webp"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNPq_afLMdo2LmlrmCPUmTCyttYriS3IN2-oD121Nymb1KP0yBlgwo-bs3p9XhsFnvdbSS4pjEPZi0mSfoCzrN2TxDzPGEP_MHkQH6yTkQuMjJ0WjLkW9zXNUq0iHunFfx_jUQra0jSMUMbh7monKBaXOCiiIx8iiwJACAuetdNv8eVN1jenUG5KEl4L0/s16000/masterpanelproviderindia.png"
                 alt="Master Panel Provider India"
                 style={{
                   width: "100%",
@@ -258,7 +258,7 @@ const HomePage = () => {
           >
             <div style={{ flex: "1", minWidth: "300px" }}>
               <img
-                src="/images/rental-betting-panel.webp"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3jahjTEcU1jAm_fvWnC8XIW563193SsJSsIdUy-2YQW95NSGFSA4tsKrXVEUwGVw2fAd8Aedz1k9MlAcFW9PoPFYRh_35XrpC7GTvEbE3KmLKXiFwhG87jwQsyNBzcLZcJBMy3eNDZhBDA_T1CDxY5JCGUURXJp4Oz0OlXQURWG1ZX7vwUBdPfkh0DvU/s16000/rentalbettingidpanel.png"
                 alt="Rental Betting ID Panel"
                 style={{
                   width: "100%",
@@ -343,7 +343,7 @@ const HomePage = () => {
           >
             <div style={{ flex: "1", minWidth: "300px" }}>
               <img
-                src="/images/reddy-anna-panel.webp"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG_tudyf5WLbyW0E4RBUCVU0-rkGq0VTouiNwpx4csP74GTjrbSMnlzFPRVeeItkbYEnw66MoVSfIqe8rT13rJ8yQv4aTu_BUWN1tPwkT97o1W3aqxJ_92ICQqaiBkX6v3w27dLtCYnlbzpvOeQZDrUj4bZ5j-lQOMT5-35zkq51Csdu2oNI67mH90rlM/s16000/reddyannapanelprovider.png"
                 alt="Reddy Anna Panel Provider"
                 style={{
                   width: "100%",
