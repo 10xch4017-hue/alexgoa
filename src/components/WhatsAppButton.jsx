@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { MessageCircle } from 'lucide-react';
+import React, { useState } from "react";
+import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
   const [isHovered, setIsHovered] = useState(false);
 
-  const phoneNumber = "919784782981"; // No +, no spaces
+  const phoneNumber = "447538486706"; // No +, no spaces
 
   const message = `Hello 👋
 
@@ -16,7 +16,7 @@ Thank you.`;
   const handleClick = () => {
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, "_blank");
   };
 
   return (
@@ -29,9 +29,9 @@ Thank you.`;
         aria-label="Contact us on WhatsApp"
       >
         <div className="whatsapp-icon-wrapper">
-          <MessageCircle 
-            size={28} 
-            strokeWidth={2} 
+          <MessageCircle
+            size={28}
+            strokeWidth={2}
             color="white"
             className="whatsapp-icon"
           />
