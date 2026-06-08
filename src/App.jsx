@@ -77,7 +77,7 @@ function App() {
 
         {/* Floating Buttons */}
         <WhatsAppButton
-          phoneNumber="447777339208"
+          phoneNumber="13827005944"
           message="Hi! I'm interested in your services."
         />
         <ScrollToTop />
