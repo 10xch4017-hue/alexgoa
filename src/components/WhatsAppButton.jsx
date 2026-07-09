@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 import { MessageCircle } from "lucide-react";
 
-const WhatsAppButton = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const phoneNumber = "13827005944"; // No +, no spaces
-
-  const message = `Hello 👋
+const WhatsAppButton = ({
+  phoneNumber = "6285184130185",
+  message = `Hello 👋
 
 I’m interested in getting a B2B , B2C panel.
 
 Please share complete details.
-Thank you.`;
+Thank you.`,
+}) => {
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleClick = () => {
     const encodedMessage = encodeURIComponent(message);
