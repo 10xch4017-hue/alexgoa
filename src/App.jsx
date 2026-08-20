@@ -20,6 +20,7 @@ import RentalBettingIdPanel from "./pages/RentalBettingIdPanel";
 import MasterPanelProviderIndia from "./pages/MasterPanelProviderIndia";
 import ReddyAnnaPanelProvider from "./pages/ReddyAnnaPanelProvider";
 import ContactSection from "./components/ContactSection";
+import TelegramButton from "./components/TelegramButton";
 
 // Styles
 import "./styles.css";
@@ -27,6 +28,7 @@ import "./B2BPanelCards.css";
 import "./B2CPage.css";
 import "./WhatsAppButton.css";
 import "./ScrollToTop.css";
+import "./TelegramButton.css";
 
 // Scroll to top when route changes
 function ScrollToTopOnMount() {
@@ -77,9 +79,10 @@ function App() {
 
         {/* Floating Buttons */}
         <WhatsAppButton
-          phoneNumber="6285184130185"
+          phoneNumber="447347631909"
           message="Hi! I'm interested in your services."
         />
+        <TelegramButton link="https://t.me/alexgoaoffical" />
         <ScrollToTop />
       </div>
     </Router>

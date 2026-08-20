@@ -131,7 +131,7 @@ const HomePage = () => {
               </p>
 
               <a
-                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=447347631909&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -219,7 +219,7 @@ const HomePage = () => {
               </p>
 
               <a
-                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=447347631909&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -304,7 +304,7 @@ const HomePage = () => {
               </p>
 
               <a
-                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=447347631909&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -384,7 +384,7 @@ const HomePage = () => {
               </p>
 
               <a
-                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=447347631909&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -823,7 +823,7 @@ const HomePage = () => {
             {/* CTA */}
             <div style={{ textAlign: "center", marginTop: "60px" }}>
               <a
-                href="https://api.whatsapp.com/send/?phone=919784782981&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=447347631909&text=Hello+%EF%BF%BD%0A%0AI%E2%80%99m+interested+in+getting+a+B2B+%2C+B2C+panel.%0A%0APlease+share+complete+details.%0AThank+you.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
