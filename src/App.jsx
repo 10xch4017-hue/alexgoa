@@ -21,6 +21,7 @@ import MasterPanelProviderIndia from "./pages/MasterPanelProviderIndia";
 import ReddyAnnaPanelProvider from "./pages/ReddyAnnaPanelProvider";
 import ContactSection from "./components/ContactSection";
 import TelegramButton from "./components/TelegramButton";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 // Styles
 import "./styles.css";
@@ -57,6 +58,7 @@ function App() {
             <Route path="/b2c" element={<B2CPage />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<ContactSection />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route
               path="/betting-panel-provider"
               element={<BettingPanelProvider />}
